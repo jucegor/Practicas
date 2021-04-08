@@ -7,6 +7,12 @@ html{
     font-size: 62.5%;
 }
 
+body {
+    display: block;
+    /* justify-content: flex-end; */
+    min-height: 100vh
+}
+
 header{
     display: flex;
     justify-content: flex-end;
@@ -52,5 +58,48 @@ main img{
 .BarraBusqueda{
     display: flex;
     justify-content: space-between;
-    width: 30%;
+    align-items: center;
+    height: 5rem;
+    border: .1rem solid rgb(190, 189, 189);
+    border-radius: 4rem;
+    margin: 3rem
+}
+
+.BarraBusqueda a img{
+    width: auto;
+    margin: 1rem;
+    border: 0.1rem solid white;
+    border-radius: 50%;
+}
+
+.mainElement{
+    text-align: center;
+    width: 50rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+.mainOptions{
+    display: flex;
+    justify-content: space-evenly;
+}
+.mainOptions div{
+    background-color: rgb(224, 223, 223);
+    padding: 0.5rem;
+    border: 0.1rem solid rgb(224,223, 223);
+    border-radius: 0.5rem ;
+}
+footer{
+    background-color: rgb(224, 223, 223);
+    display: flex;
+    justify-content: space-between;
+}
+
+footer div ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+footer div ul li{
+    padding: 1rem;
 }

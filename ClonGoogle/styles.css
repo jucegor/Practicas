@@ -50,6 +50,10 @@ figure{
     justify-content: center;
 }
 
+main{
+    height: calc(100vh - 6rem - 3rem);
+    padding: 15rem;
+}
 main img{
     width: 27.2rem;
     margin: auto;
@@ -80,16 +84,18 @@ main img{
 }
 .mainOptions{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 .mainOptions div{
-    background-color: rgb(224, 223, 223);
-    padding: 0.5rem;
-    border: 0.1rem solid rgb(224,223, 223);
+    background-color: rgb(245, 245, 245);
+    padding: 1rem;
+    margin: 0 1rem 0 1rem;
+    border: 0.1rem solid rgb(245, 245, 245);
     border-radius: 0.5rem ;
 }
+
 footer{
-    background-color: rgb(224, 223, 223);
+    background-color: rgb(245, 245, 245);
     display: flex;
     justify-content: space-between;
 }
